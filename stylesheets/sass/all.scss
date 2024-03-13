@@ -17,8 +17,7 @@
 @import "../node_modules/bootstrap/scss/variables-dark";
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
-// @import "./helpers/utilities";
-@import "../node_modules/bootstrap/scss/utilities";
+@import "./helpers/utilities";
 
 
 // Layout & components
@@ -60,6 +59,8 @@
 // Utilities
 @import "../node_modules/bootstrap/scss/utilities/api";
 
-@import "./components/custom-buttons"
+@import "./components/custom-buttons";
+@import "./components/deco-box";
+@import "./components/utilities"
 
 

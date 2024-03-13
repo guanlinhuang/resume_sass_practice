@@ -801,6 +801,8 @@ $utilities: map-merge(
       values: $zindex-levels,
     ),
     // scss-docs-end utils-zindex
+
+    // 以下是自行加入
     "background-size": (
         property: background-size,
         class: bg-s, //已有相同名稱class: bg，所以後面再加s，代表size
@@ -817,7 +819,17 @@ $utilities: map-merge(
       values:(
         center: center center //置中
       )
-    )
+    ),
+    "bg-attachment": (
+      property:background-attachment,
+      class: bg-attachment,
+      values:fixed
+    ),
+    // "object-fit": (
+    //   property:object-fit,
+    //   class:object-fit,
+    //   values:cover
+    // )
   ),
   $utilities
 );
